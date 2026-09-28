@@ -1,0 +1,7 @@
+interface:
+  display_name: "网页数据抓取"
+  short_description: "从已登录网页自主查询并抓取完整分页原始记录"
+  default_prompt: "使用 $web-data-extractor 从当前已登录网页抓取我指定范围和字段的原始记录。"
+
+policy:
+  allow_implicit_invocation: true
